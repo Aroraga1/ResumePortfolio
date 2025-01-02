@@ -1,0 +1,186 @@
+#indexcome{
+    font-size: 2.8rem;
+    text-decoration: none;
+}
+.projectsheadContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 10vh;
+}
+.headP{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgba(24,22,22,0.8);
+    padding: auto;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-bottom: 2vh;    
+}
+.wordP{
+    color: #fff;
+    text-align: start;
+    margin: 10px 0px;
+    background-color: rgba(24,22,22);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 10px 30px;   
+    margin-top: 5vh;
+}
+.headerP{
+    width: 45%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(24,22,22,0.8);
+    margin-top: 3vh;
+}
+.Pname{
+    color: #fff;
+    text-align: start;
+    background-color: rgba(24,22,22);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 0px 30px;   
+    margin-bottom: 1vh;
+}
+.pro{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:  0 0 5px rgb(76, 118, 202);
+}
+.pro:hover{
+    box-shadow:  0 0 15px rgb(76, 118, 202);
+}
+.imgP{
+    width: 100%;
+    height: 25vh;
+    background-color: #fff;
+    background-size: auto;
+    border-radius: 20px;
+    background-position: center;
+    }
+    
+    .aboutP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 15px 10px;
+        color: white;
+        margin-bottom: 5vh;
+    }
+    .demoP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(76, 118, 202);
+        text-decoration: none;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .gitP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        color: rgb(76, 118, 202);
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    #imgp1{
+        background-image: url(chatbotimg.jpg);
+        background-size: cover;
+        }
+        #imgp2{
+            background-image: url(OIP.jpg);
+            background-size: cover;
+            }
+            #imgp3{
+                background-image: url(tictactoeinJava.webp);
+                background-size: cover;
+                }
+                #imgp4{
+                    background-image: url(calculaterinJava.png);
+                    background-size: cover;
+                    }
+    #imgp7{
+    background-image: url(calculater.png);
+    background-size: cover;
+    }
+    #imgp5{
+        background-image: url(todoList.png);
+        background-size: cover;
+        }
+        #imgp6{
+            background-image: url(decorationClints.png);
+            background-size: cover;
+            }
+            #imgp8{
+                background-image: url(portfolio.png);
+                background-size: cover;
+                }
+                #imgp9{
+                    background-image: url(Aerophentom.png);
+                    background-size: cover;
+                    }
+                    #imgp10{
+                        background-image: url(ButtonAnimationFigma.png);
+                        background-size: cover;
+                        }
+                        #imgp11{
+                            background-image: url(firstProjectFigma.png);
+                            background-size: cover;
+                            }
+                            #imgp12{
+                                background-image: url(web3projectFigma.png);
+                                background-size: cover;
+                                }
+                                #imgp13{
+                                    background-image: url(Stop_Watch_img.jpeg);
+                                    background-size: cover;
+                                    }
+                                    #imgp14{
+                                        background-image: url(time_counter_img.png);
+                                        background-size: cover;
+                                        }
+                                        #imgp15{
+                                            background-image: url(quize_app_img.png);
+                                            background-size: cover;
+                                            }
+                                            #imgp16{
+                                                background-image: url(whether_img.jpg);
+                                                background-size: cover;
+                                                }
+                                                #imgp17{
+                                                    background-image: url(sps_game_js.png);
+                                                    background-size: cover;
+                                                    }
+                                                    #imgp18{
+                                                        background-image: url(LMS_img.png);
+                                                        background-size: cover;
+                                                        }
+
+
+
+@media (max-width:600px){ .headP{
+    flex-direction: column; 
+}
+    .headerP{
+    width: 80%;
+}
+.Pname{
+    padding: 0;
+}
+}
