@@ -222,6 +222,14 @@
   background-image: url(https://i.ytimg.com/vi/bIqOJg6uTxc/maxresdefault.jpg);
   background-size: cover;
 }
+#imgp101 {
+  background-image: url(../images/video_calling_app.jpeg);
+  background-size: cover;
+}
+#imgp102 {
+  background-image: url(../images/pbic.jpeg);
+  background-size: cover;
+}
 
 @media (max-width: 600px) {
   .headP {
